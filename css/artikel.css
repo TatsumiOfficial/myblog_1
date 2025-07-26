@@ -1,0 +1,119 @@
+/* Artikel CSS */
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .article-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .article-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .article-meta {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .article-content {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .article-content img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .article-content h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .article-content h3 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .article-content blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 10px solid #1E7E34;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .article-content pre {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 5px;
+  }
+  
+  .article-content pre code {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .article-content a {
+    color: #1E7E34;
+    text-decoration: none;
+    border-bottom: 1px solid #1E7E34;
+  }
+  
+  .article-content a:hover {
+    background-color: #1E7E34;
+    color: #fff;
+  }
+  
+  @media (max-width: 767px) {
+    .article-container {
+      padding: 10px;
+    }
+  
+    .article-title {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+  
+    .article-meta {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  
+    .article-content {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  
+    .article-content h2 {
+      font-size: 24px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .article-content h3 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  
